@@ -1,0 +1,2 @@
+add_executable(random main.c)
+target_link_libraries(random PUBLIC lib_linear_congruential_generator)

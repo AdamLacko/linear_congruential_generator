@@ -1,0 +1,2 @@
+add_library(lib_linear_congruential_generator STATIC lcg_random.c)
+target_include_directories(lib_linear_congruential_generator PUBLIC "./")
